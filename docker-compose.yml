@@ -10,7 +10,7 @@ services:
     environment:
       TENANT_ID: "20080911ffff4fffafffffff19830531"
     volumes:
-      - .:/app
+      - $PWD:/app
       - ~/.composer/cache:/.composer/cache
       - ~/.npm:/home/application/.npm
 
